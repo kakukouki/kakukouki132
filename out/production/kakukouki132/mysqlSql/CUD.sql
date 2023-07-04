@@ -1,0 +1,14 @@
+ALTER TABLE emp
+		ADD image01 VARCHAR (32) NOT NULL DEFAULT ''
+		AFTER resume
+DESC emp
+ALTER TABLE emp
+		MODIFY job VARCHAR(60) NOT NULL DEFAULT ''
+ALTER TABLE emp
+		DROP sex ;
+RENAME TABLE emp to employee
+ALTER TABLE employee CHARACTER SET utf8
+ALTER TABLE employee
+		CHANGE `name` `user_name` VARCHAR(64) NOT NULL DEFAULT ''
+DESC employee
+
