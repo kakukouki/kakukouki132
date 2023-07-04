@@ -1,0 +1,1 @@
+INSERT INTO `employee` (`id`, `user_name`, `birhday`, `entry_date`, `job`, `salary`, `resume`, `image01`, `image`) VALUES (100, 'モンスター', '2002-06-28', '2022-06-28 11:49:05', 'お巡りさん', 3000, 'ボス-に捜査させた', '', 'ghj');
