@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Title</title>
+    <!-- <link rel="stylesheet" href="demo01.css"> -->
+    <script>
+        // var a=10;
+        // var b=20;
+        // var temp = a + b;
+        // alert(temp);
+
+        // var arr = ['a', 'b', 'c', 'd'];
+        // alert(arr.length);
+        // var temp = arr.pop();
+        // alert(temp);
+        // alert(arr);
+        // alert(arr.length);
+
+        // var str01 = "1a1.89";
+        // var str02 = "a11.89";
+        // var tem01 = parseInt(str01);
+        // var tem02 = parseFloat(str02);
+        // alert(tem01);
+        // alert(tem02);
+
+        //  function num(a,b){
+        //     alert(a + "+" + b + "=" + (a +b) );
+        //  }
+        //  function num(a,b,c){
+        //     alert(a + "+" + b + "+" + c + "=" + (a +b + c) );
+        //  }
+        //  num(11, 22, 33);
+         
+        // function Person(n, a){
+        //     this.name = n;
+        //     this.age = a;
+        // }
+        // var p = new Person("jack", 28);
+        // alert(p.name + p.age);
+        // p.name = "kakukouki";
+        // p.age = 25; 
+        // alert(p.name + p.age);
+
+        // var person = {name : "jack", age : 25};
+        // alert(person);
+        // person.sex = "man";
+        // alert(person.name + ":" + person.age + ":" + person.sex);
+
+        //  var p = confirm("確認　キャンセル");
+        //  alert(p); 
+
+        // location.href = "超链接.html";
+        // location.href = "http://www.google.com";
+
+        function run1(){
+            location.href = "http://www.google.com";
+        }
+        setTimeout("run1()", 2000);
+    </script>
+</head>
+<body>
+    <div>
+         <form action="超链接.html" method="">
+        <div><input type="hidden" name="userid" value="673ebf9nou89i0b"></div>
+        <div>ユーザ：<input type="text" name="user" autocomplete="off"></div>
+        <div>パスワード：<input type="password" placeholder="パスワードを入力" name="pw"><br /></div>
+        <div>性別：<input type="radio" name="sex" value="man">男
+                  <input type="radio" name="sex" value="woman">女
+<!--                    <input type="radio" name="sex2">nam-->
+<!--                    <input type="radio" name="sex2">woman-->
+        </div>
+            <div class="jj">趣味：<input type="checkbox" name="hobby" value="run">ジョギング
+            <input type="checkbox" name="hobby" value="read">読書
+            <input type="checkbox" name="hobby" value="sing">カラオケ</div>
+            <div><input type="file" name="photo" ></div>
+        住所：<br/>
+        <select name="test01" id="">
+            <option value="1" >町を選択</option>
+            <option value="2" selected="selected">青森県</option>
+            <option value="3">三重県</option>
+        </select><br/>
+        <input type="submit"> <input type="reset"><br/>
+
+        <!--        <input type="" autocomplete="off">-->
+        </form> 
+    </div>
+
+</body>
+</html>

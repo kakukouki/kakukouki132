@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function run1(){
+            alert("run1");
+        }
+        function run2(str){
+            alert(str);
+        }
+        function run3(obj){
+            alert(obj.id);
+            alert(obj.name);
+        }
+    </script>
+</head>
+<body>
+    <!-- <input type="text" onkeyup="run1()"><br/>
+    <input type="text" onkeydown="run1()"><br/>
+    <input type="text" onkeypress="run1()"><br/>
+    <input type="text" onmousedown="run1()"> -->
+    <input type="text" onclick="run1()"><br />
+    <input type="text" onclick="run2('this is run2')"><br />
+    <input type="text"  value="iiii" name="rr" id="t1" onclick="run3(this)"><br />
+    <input type="text"  id="t2"  name = "pp" onclick="run1(), run2('ohhhhhh'), run3(this)">
+</body>
+</html>

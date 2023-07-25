@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange</title>
+    <script>
+        function run1(){
+            alert("值改变了");
+        }
+        function run2(){
+            alert("被提交了");
+            return true;
+        }
+    </script>
+</head>
+<body onload="run1()">
+
+    <select name="area" id="t1" onchange="run1()">
+        <option value="tk">东京</option>
+        <option value="osk">大阪</option>
+        <option value="hkd">北海道</option>
+    </select>
+    <form action="" onsubmit="return run2()">
+        <input type="text"><input type="text"><input type="submit">
+    </form>
+</body>
+</html>
